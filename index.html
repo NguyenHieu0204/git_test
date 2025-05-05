@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quản lý chi tiêu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #c5bbbb;">
+  <h1>Xin chào! Đây là ứng dụng quản lý chi tiêu của bạn.</h1>
+  <h1>
+    Quản lý chi tiêu
+  </h1>
+  <h2>Thêm khoản chi tiêu</h2>
+  <form action="">
+    <label for="">
+      Tiêu đề:
+    </label><br>
+    <input type="text" name="title"><br>
+    <label for="">
+      Số tiền:
+    </label><br>
+    <input type="number" name="amount"><br>
+    <label for="">
+      Ngày:
+    </label><br><br>
+    <input type="date" name="date" id=""><br><br>
+    <label for="">
+      Ghi chú:
+    </label><br>
+    <textarea name="note" id="note" maxlength="100" cols="30" rows="10"></textarea><br><br>
+    <small id="charCount">Còn lại: 100 ký tự</small><br><br>
+    <button type="submit">Thêm</button> 
+  </form>
+  <script src="qlct.js"></script>
+</body>
+</html>
